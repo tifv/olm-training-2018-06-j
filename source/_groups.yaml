@@ -1,0 +1,49 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2018-06-01: [1, 2]
+  - 2018-06-02: [1, 2]
+  - 2018-06-03: [1, 2]
+  - 2018-06-04: [1, 2]
+  - 2018-06-05: [1, 2]
+  - 2018-06-06: [    ]
+  - 2018-06-07: [1, 2]
+  - 2018-06-08: [1, 2]
+  - 2018-06-09: [1, 2]
+  - 2018-06-10: [    ]
+  - 2018-06-11: [1, 2]
+  - 2018-06-12: [1, 2]
+  - 2018-06-13: [1, 2]
+  - 2018-06-14: [1, 2]
+
+- $large$groups[g8r1]: true
+- $groups[g8r1]:
+    name: 'Икосаэдры'
+    code: '8-1'
+    timetable: *common-timetable
+
+- $large$groups[g8r2]: true
+- $groups[g8r2]:
+    name: 'Додекаэдры'
+    code: '8-2'
+    timetable: *common-timetable
+
+- $large$groups[g9r1]: true
+- $groups[g9r1]:
+    name: 'Тетраэдры'
+    code: '9-1'
+    timetable: *common-timetable
+
+- $large$groups[g9r2]: true
+- $groups[g9r2]:
+    name: 'Октаэдры'
+    code: '9-2'
+    timetable: *common-timetable
+
+- $large$groups[g9r3]: true
+- $groups[g9r3]:
+    name: 'Гексаэдры'
+    code: '9-3'
+    timetable: *common-timetable
+

@@ -1,0 +1,12 @@
+announcement:
+  $build$style[print]:
+  - .[a6paper,resize-to]
+  $build$style:
+  - .[a6paper]
+  $style[-announcement]:
+  - .[announcement]
+  $matter:
+  - - ../Захаров/announcement
+  - - ../Соколов/announcement
+  - - ../Тихонов/announcement
+  - - ../Штерн/announcement
