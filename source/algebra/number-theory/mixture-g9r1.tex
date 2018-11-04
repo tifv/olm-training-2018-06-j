@@ -1,0 +1,49 @@
+% $date: 2018-06-12
+% $timetable:
+%   g9r1:
+%     2018-06-12:
+%       2:
+
+\worksheet*{Разнобой по~теории чисел}
+
+% $authors:
+% - Леонид Андреевич Попов
+
+\begingroup
+    \def\abs#1{\lvert #1 \rvert}%
+    \def\divides{\mathrel{\vert}}%
+
+\begin{problems}
+
+\item
+Пусть $a$~--- нечетное число.
+Докажите, что числа $a^{2^{n}} + 2^{2^{n}}$ и~$a^{2^{m}} + 2^{2^{m}}$ взаимно просты
+при любых натуральных $n \neq m$.
+
+\item
+Пусть $a$ и~$b$~--- такие различные натуральные числа, что $a b (a + b)$
+делится на~$a^2 + a b + b^2$.
+Докажите, что $\abs{a - b} > \sqrt[3]{ab}$.
+% Андрееску, стр. 15
+
+\item
+Найдите все натуральные $n$, для которых $n^{n} + 1$ и~$(2n)^{2n} + 1$ являются
+простыми.
+% http://artofproblemsolving.com/community/c6h381151p2110492
+
+\item
+Найдите все натуральные $n$ такие, что
+\[
+    n \divides 1^{n} + 2^{n} + \ldots + (n - 1)^{n}
+\, . \]
+% http://artofproblemsolving.com/community/c6t45788f6h1110315
+
+\item
+Докажите, что в~последовательности чисел $2^{n} - 3$, где $n = 1, 2, \ldots$,
+существует набор из~$2018$ попарно взаимно простых чисел.
+% 7.1.9 Number Theory: Structures, Examples, and Problems by Titu Andreescu
+
+\end{problems}
+
+\endgroup % \def\abs \def\divides
+
