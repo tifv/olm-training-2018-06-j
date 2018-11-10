@@ -49,10 +49,20 @@ Integral:
   - delegate: g9r1
   - delegate: g9r2
   - delegate: g9r3
+  - delegate: special
 
   g8r1:  {$training$matter$chapter: true}
   g8r2:  {$training$matter$chapter: true}
   g9r1:  {$training$matter$chapter: true}
   g9r2:  {$training$matter$chapter: true}
   g9r3:  {$training$matter$chapter: true}
+
+  special:
+    $matter:
+    - - verbatim: \chapter{Анонсы спецкурсов}
+      - verbatim: \begingroup \renewcommand\jeolmgroupnames{{\large Анонс спецкурса}}
+      - delegate: /special/1/announcement
+      - delegate: /special/2/announcement
+      - delegate: /special/3/announcement
+      - verbatim: \endgroup
 

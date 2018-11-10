@@ -8,5 +8,5 @@ announcement:
   $matter:
   - - ../Дориченко/announcement
   - - ../Пиперски/announcement
-  # - ../Скопенков/announcement
+  - - ../Скопенков/announcement
   - - ../Юргин/announcement
